@@ -20,18 +20,10 @@ jobs:
           config_timezone: Europe/Moscow
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_details: bytes-size, percentage
           config_twemoji: yes
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
           
       - name: Generate 3D Commit Snake
         uses: Platane/snk@v3
@@ -40,7 +32,6 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#00E5FF&color_dots=#0d1117,#162a3d,#1d4060,#245985,#2c78b4,#00E5FF
-            dist/ocean.gif?color_snake=#00E5FF&color_dots=#0d1117,#162a3d,#1d4060,#245985,#2c78b4,#00E5FF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
