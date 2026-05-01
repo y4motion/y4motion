@@ -40,6 +40,15 @@
     <img src="https://skillicons.dev/icons?i=docker,linux,aws,postgres,mongodb,mysql,sqlite,ipfs&theme=dark&perline=8" alt="Infrastructure & Data" />
   </a>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Stellar-7C3AED?style=flat-square&logo=stellar&logoColor=white" />
+  <img src="https://img.shields.io/badge/XRP_Ledger-0F0F0F?style=flat-square&logo=xrp&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebGPU-0066CC?style=flat-square&logo=google-chrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/WASI-1F2328?style=flat-square&logo=webassembly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Extism-6E40C9?style=flat-square&logo=webassembly&logoColor=white" />
+</p>
 
 ──────────────────
 
