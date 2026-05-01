@@ -60,18 +60,15 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
 
-          # Custom CSS — teal/purple palette for isocalendar + headers
+          # Custom CSS — teal/purple palette via SVG attribute selectors
           extras_css: |
             h2, h3 { color: #2dd4bf !important; }
-            .isocalendar svg:not(.isocalendar-graph) { color: #2dd4bf !important; }
-            .isocalendar-day-level-1 { fill: #5eead4 !important; }
-            .isocalendar-day-level-2 { fill: #2dd4bf !important; }
-            .isocalendar-day-level-3 { fill: #14b8a6 !important; }
-            .isocalendar-day-level-4 { fill: #0d9488 !important; }
-            :root {
-              --color-calendar-graph-day-L1-bg: #5eead4;
-              --color-calendar-graph-day-L2-bg: #2dd4bf;
-              --color-calendar-graph-day-L3-bg: #14b8a6;
-              --color-calendar-graph-day-L4-bg: #0d9488;
-            }
+            /* Override GitHub green calendar palette → teal gradient */
+            rect[fill="#9be9a8"], path[fill="#9be9a8"] { fill: #99f6e4 !important; }
+            rect[fill="#40c463"], path[fill="#40c463"] { fill: #5eead4 !important; }
+            rect[fill="#30a14e"], path[fill="#30a14e"] { fill: #2dd4bf !important; }
+            rect[fill="#216e39"], path[fill="#216e39"] { fill: #0d9488 !important; }
+            /* Empty cells — subtle dark */
+            rect[fill="#ebedf0"], path[fill="#ebedf0"] { fill: #1e293b !important; }
+            /* Octicons — purple accent */
             section > .field > svg.octicon { color: #8b5cf6 !important; }
