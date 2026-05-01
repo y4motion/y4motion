@@ -9,18 +9,21 @@
   </a>
 </div>
 
----
+──────────────────
 
-### ⚡ What I Build
+### /// WHAT I BUILD
 
-- **Protocol Infrastructure** — Upgradeable proxy patterns (UUPS), onchain knowledge graphs, DeFi tooling
-- **Security Tooling** — Static analysis engines, smart contract audit automation, adversarial testing pipelines
-- **Developer Experience** — CLI tools, MCP integrations, AI-assisted development workflows
-- **Native Performance** — Tauri v2 desktop apps, WASM sandboxing, GPU-accelerated rendering
+◆ **Protocol Infrastructure** — upgradeable proxy patterns (UUPS), onchain knowledge graphs, DeFi tooling
+
+◆ **Security Tooling** — static analysis engines, smart contract audit automation, adversarial testing pipelines
+
+◆ **Developer Experience** — CLI tools, MCP integrations, AI-assisted development workflows
+
+◆ **Native Performance** — Tauri v2 desktop apps, WASM sandboxing, GPU-accelerated rendering
 
 <br/>
 
-### 🔧 Tech Stack
+### /// TECH STACK
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
@@ -36,20 +39,24 @@
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
   <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
-<br/>
+──────────────────
 
-### 🔥 The Radar
-*Dynamic live-generated stats (auto-updates via GitHub Actions).*
+### /// THE RADAR
+
+*dynamic stats · auto-updated via GitHub Actions.*
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/y4motion/y4motion/main/github-metrics.svg" alt="y4motion Metrics" width="800" />
 </div>
 
-### 🐍 Contributions
+### /// CONTRIBUTIONS
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/y4motion/y4motion/output/github-snake-dark.svg">
@@ -58,15 +65,21 @@
   </picture>
 </div>
 
-<br/>
+──────────────────
 
-### 🌐 Currently Contributing To
+### /// CURRENTLY CONTRIBUTING TO
 
-- [Intuition Protocol](https://github.com/intuition-box) — Knowledge graph infrastructure & onchain discovery tools
-- [Triarchy Labs](https://github.com/Triarchy-Labs) — Sovereign infrastructure for decentralized computation
-- Open source security tooling & protocol research
+◆ [Intuition Protocol](https://github.com/intuition-box) — onchain knowledge graph infrastructure & discovery tools
 
----
+◆ [Triarchy Labs](https://github.com/Triarchy-Labs) — sovereign infrastructure for decentralized computation
+
+◇ open source security tooling & protocol research
+
+──────────────────
+
 <div align="center">
-  <i>"Code is just data. Architecture is destiny."</i>
+  <i>architecture is destiny.</i>
+  <br/><br/>
+
+  `// y4motion`
 </div>
