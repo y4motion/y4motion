@@ -13,13 +13,15 @@
 
 ### /// WHAT I BUILD
 
-◆ **Protocol Infrastructure** — upgradeable proxy patterns (UUPS), onchain knowledge graphs, DeFi tooling
+◆ **Protocol Engineering** — Solidity/Rust smart contracts, UUPS proxies, Stellar Soroban, XRP Ledger hooks
 
-◆ **Security Tooling** — static analysis engines, smart contract audit automation, adversarial testing pipelines
+◆ **Fullstack Systems** — React/Next.js 16 frontends, FastAPI/Node.js backends, GraphQL APIs, PostgreSQL/MongoDB
 
-◆ **Developer Experience** — CLI tools, MCP integrations, AI-assisted development workflows
+◆ **Security & Auditing** — static analysis engines (SAST), adversarial testing pipelines, smart contract audit automation
 
-◆ **Native Performance** — Tauri v2 desktop apps, WASM sandboxing, GPU-accelerated rendering
+◆ **3D & GPU** — Three.js/WebGL/WebGPU immersive experiences, GLSL shaders, Framer Motion interfaces
+
+◆ **Native & Edge** — Tauri v2 desktop apps, WASM/WASI sandboxing (Extism), Docker/AWS infrastructure
 
 <br/>
 
