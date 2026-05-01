@@ -1,8 +1,8 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 4 * * *"   # daily at 04:00 UTC
-  workflow_dispatch:       # manual trigger
+    - cron: "0 4 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -20,6 +20,9 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: Europe/Moscow
           config_display: large
+          config_padding: 0, 8 + 11%
+
+          # Languages
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -28,10 +31,45 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+
+          # Contribution calendar — flat (no ugly 3D white grid)
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+
+          # Habits — the cross chart
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_from: 200
+          plugin_habits_trim: yes
+
+          # Notable contributions
           plugin_notable: yes
           plugin_notable_from: all
           plugin_notable_types: commit
+
+          # Stars
           plugin_stars: yes
           plugin_stars_limit: 3
+
+          # Custom CSS — teal/purple palette override
+          extras_css: |
+            /* Base accent → teal */
+            h2, h3 { color: #2dd4bf !important; }
+
+            /* Habits cross chart → purple gradient */
+            .habits svg.chart .bar { fill: #8b5cf6 !important; }
+            .habits svg.chart line { stroke: #8b5cf6 !important; }
+            .habits svg.chart circle { fill: #a78bfa !important; stroke: #8b5cf6 !important; }
+            .habits svg.chart polygon { fill: rgba(139, 92, 246, 0.25) !important; stroke: #a78bfa !important; }
+            .habits svg.chart text { fill: #c4b5fd !important; }
+
+            /* Contribution calendar → teal shades */
+            .calendar svg rect[fill="#9be9a8"] { fill: #5eead4 !important; }
+            .calendar svg rect[fill="#40c463"] { fill: #2dd4bf !important; }
+            .calendar svg rect[fill="#30a14e"] { fill: #14b8a6 !important; }
+            .calendar svg rect[fill="#216e39"] { fill: #0d9488 !important; }
+
+            /* Section headers */
+            section > .field > svg.octicon { color: #8b5cf6 !important; }
