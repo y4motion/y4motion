@@ -27,12 +27,17 @@
 
 <p align="center">
   <a href="https://github.com/y4motion">
-    <img src="https://skillicons.dev/icons?i=rust,solidity,ts,python,react,nextjs&theme=dark&perline=6" alt="Languages" />
+    <img src="https://skillicons.dev/icons?i=rust,solidity,go,python,ts,js,react,nextjs&theme=dark&perline=8" alt="Core Languages & Frameworks" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/y4motion">
-    <img src="https://skillicons.dev/icons?i=threejs,wasm,docker,linux,postgres,graphql&theme=dark&perline=6" alt="Infrastructure" />
+    <img src="https://skillicons.dev/icons?i=vue,nodejs,fastapi,threejs,tauri,wasm,prisma,graphql&theme=dark&perline=8" alt="Runtime & Protocols" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/y4motion">
+    <img src="https://skillicons.dev/icons?i=docker,linux,aws,postgres,mongodb,mysql,sqlite,ipfs&theme=dark&perline=8" alt="Infrastructure & Data" />
   </a>
 </p>
 
