@@ -32,9 +32,9 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-          # Flat contribution calendar
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
+          # 3D Isometric contribution calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
           # Notable contributions
           plugin_notable: yes
@@ -60,9 +60,14 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
 
-          # Custom CSS — teal/purple palette
+          # Custom CSS — teal/purple palette for isocalendar + headers
           extras_css: |
             h2, h3 { color: #2dd4bf !important; }
+            .isocalendar svg:not(.isocalendar-graph) { color: #2dd4bf !important; }
+            .isocalendar-day-level-1 { fill: #5eead4 !important; }
+            .isocalendar-day-level-2 { fill: #2dd4bf !important; }
+            .isocalendar-day-level-3 { fill: #14b8a6 !important; }
+            .isocalendar-day-level-4 { fill: #0d9488 !important; }
             :root {
               --color-calendar-graph-day-L1-bg: #5eead4;
               --color-calendar-graph-day-L2-bg: #2dd4bf;
