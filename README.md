@@ -1,19 +1,45 @@
+<!-- Header Animation -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00E5FF,4169E1&height=220&section=header&text=Hardware%20Frontier%20%26%20Architect&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:151515,100:005C8A&height=220&section=header&text=y4motion%20//%20Triarchy%20Labs&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Protocol%20Engineering%20·%20Web3%20Security%20·%20Knowledge%20Graphs&descAlignY=58&descAlign=50" />
 </div>
 
 <div align="center">
-  <h3>Building protocol-level infrastructure for decentralized systems.</h3>
-  <p><code>Web3 Security</code> · <code>Protocol Engineering</code> · <code>Knowledge Graphs</code> · <code>Smart Contract Auditing</code></p>
+  <a href="https://github.com/Triarchy-Labs">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00d2ff&center=true&vCenter=true&lines=Building+Protocol-Level+Infrastructure;Smart+Contract+Auditing+%26+Security;Onchain+Knowledge+Graphs;Zero-Trust+WASM+Execution" alt="Typing SVG" />
+  </a>
 </div>
 
-<br/>
+---
 
 ### ⚡ What I Build
 
-- **Protocol Infrastructure** — Upgradeable proxy patterns, onchain knowledge graphs, DeFi tooling
-- **Security Tooling** — Static analysis engines, smart contract audit automation, adversarial testing
+- **Protocol Infrastructure** — Upgradeable proxy patterns (UUPS), onchain knowledge graphs, DeFi tooling
+- **Security Tooling** — Static analysis engines, smart contract audit automation, adversarial testing pipelines
 - **Developer Experience** — CLI tools, MCP integrations, AI-assisted development workflows
+- **Native Performance** — Tauri v2 desktop apps, WASM sandboxing, GPU-accelerated rendering
+
+<br/>
+
+### 🔧 Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tauri_v2-FFC131?style=for-the-badge&logo=tauri&logoColor=black" />
+  <img src="https://img.shields.io/badge/WASM-1F2328?style=for-the-badge&logo=webassembly&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
 
 <br/>
 
@@ -34,16 +60,10 @@
 
 <br/>
 
-### 🔧 Tech Stack
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=solidity,rust,typescript,python,react,nextjs,nodejs,postgres,docker,linux,githubactions&theme=dark&perline=11" />
-  </a>
-</p>
-
 ### 🌐 Currently Contributing To
 
-- [Intuition Protocol](https://github.com/intuition-box) — Knowledge graph infrastructure & discovery tools
+- [Intuition Protocol](https://github.com/intuition-box) — Knowledge graph infrastructure & onchain discovery tools
+- [Triarchy Labs](https://github.com/Triarchy-Labs) — Sovereign infrastructure for decentralized computation
 - Open source security tooling & protocol research
 
 ---
