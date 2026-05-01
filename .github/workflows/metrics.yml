@@ -18,7 +18,7 @@ jobs:
           user: y4motion
           template: classic
           base: header, activity, community, repositories
-          config_timezone: Europe/Moscow
+          config_timezone: America/Sao_Paulo
           config_display: large
           config_padding: 0, 8 + 11%
 
